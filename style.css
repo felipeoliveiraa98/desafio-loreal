@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 10vh;
+  background-color: #EFEEF3;
+}
+@media (max-width: 900px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 1em;
+  }
+}
+.header ul {
+  display: flex;
+  justify-content: space-between;
+  width: 65vw;
+  list-style: none;
+}
+.header ul li {
+  font-family: "Kodchasan", sans-serif;
+}
+@media (max-width: 900px) {
+  .header ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 16vh;
+  }
+}
+
+.backMulheres {
+  width: 100%;
+}
+@media (max-width: 900px) {
+  .backMulheres {
+    display: none;
+  }
+}
+
+body {
+  background-color: #EFEEF3;
+}
+
+main {
+  margin: 3em 4em;
+}
+
+.novoElseve {
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 900px) {
+  .novoElseve {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .novoElseve img {
+    margin: 6em 0;
+    width: 60vw;
+  }
+}
+.novoElseve div {
+  margin: 3em 4em;
+  height: 14em;
+  width: 35em;
+}
+@media (max-width: 900px) {
+  .novoElseve div {
+    width: 60vw;
+  }
+}
+.novoElseve div h1 {
+  font-family: "Kodchasan", sans-serif;
+  font-size: 2rem;
+  font-weight: lighter;
+  text-align: center;
+}
+.novoElseve div p {
+  font-family: "Kodchasan", sans-serif;
+  text-align: center;
+  margin: 3em 0;
+}
+
+.produtos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3em 3em;
+}
+@media (max-width: 900px) {
+  .produtos {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.produtos h3 {
+  width: 35%;
+  font-family: "Kodchasan", sans-serif;
+  font-size: 1.7rem;
+  font-weight: lighter;
+}
+@media (max-width: 900px) {
+  .produtos h3 {
+    margin: 3em 0;
+  }
+}
+.produtos div {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 900px) {
+  .produtos div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .produtos div img {
+    width: 10vw;
+  }
+}/*# sourceMappingURL=style.css.map */
